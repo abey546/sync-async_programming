@@ -1,0 +1,10 @@
+Assignment: Asynchronous Programming in Python
+1. Synchronous vs Asynchronous
+Write two Python programs:
+
+a) A synchronous program that simulates downloading three files sequentially. Use time.
+   sleep to simulate each file download taking 2 seconds.
+b)An asynchronous version of the program using asyncio
+  sleep to download the files concurrently.
+  
+Hint: Measure the execution time of both versions using the time module to observe the difference.
