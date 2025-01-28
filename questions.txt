@@ -20,3 +20,13 @@ Prints when the data processing is complete.
 Test this coroutine by calling it with three different data_id values (e.g., 1, 2, 3) and
 delays (e.g., 2, 3, 1) using asyncio.run.
 
+
+
+3. Using asyncio.create_task
+Modify the solution from Task 2 so that:
+
+  You create tasks for the process_data coroutine using asyncio.create_task.
+  The tasks are created and executed concurrently.
+Bonus: Add a fourth coroutine called monitor_tasks that runs in parallel and
+prints the status of the program every second until all tasks are complete.
+
