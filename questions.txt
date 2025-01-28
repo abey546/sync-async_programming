@@ -8,3 +8,15 @@ b)An asynchronous version of the program using asyncio
   sleep to download the files concurrently.
   
 Hint: Measure the execution time of both versions using the time module to observe the difference.
+
+
+2. Creating Coroutines
+Write a coroutine called process_data that:
+
+Accepts a data_id and a delay (in seconds).
+Prints when it starts processing the data.
+Uses await asyncio.sleep to simulate the delay.
+Prints when the data processing is complete.
+Test this coroutine by calling it with three different data_id values (e.g., 1, 2, 3) and
+delays (e.g., 2, 3, 1) using asyncio.run.
+
