@@ -30,3 +30,12 @@ Modify the solution from Task 2 so that:
 Bonus: Add a fourth coroutine called monitor_tasks that runs in parallel and
 prints the status of the program every second until all tasks are complete.
 
+
+4. Practice with await
+Write a program that:
+
+Defines a coroutine countdown_timer that accepts a number n.
+Counts down from n to 0 with a 1-second delay between each number using await asyncio.sleep.
+Test the coroutine by calling it for three different countdowns (e.g., 5, 3, and 7 seconds) concurrently.
+
+
